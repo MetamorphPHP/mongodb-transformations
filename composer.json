@@ -1,0 +1,19 @@
+{
+  "name": "metamorph/mongodb-transformations",
+  "type": "library",
+  "description": "Transformation library",
+  "keywords": ["transformer", "metamorph", "mongodb"],
+  "license": "MIT",
+  "require": {
+    "metamorph/metamorph": "dev-master",
+    "mongodb/mongodb": "^1.4@dev",
+    "php": ">=7.1"
+  },
+  "minimum-stability": "dev",
+  "bin": ["morph"],
+  "autoload": {
+    "psr-4": {
+      "Metamorph\\": "src/"
+    }
+  }
+}
