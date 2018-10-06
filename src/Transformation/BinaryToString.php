@@ -12,6 +12,6 @@ final class BinaryToString implements MetamorphTransformation
     /** $from Binary */
     public function transform($from)
     {
-        return (string) Uuid::fromBytes($from);
+        return (string) Uuid::fromBytes($from->getData);
     }
 }
